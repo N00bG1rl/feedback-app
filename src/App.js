@@ -25,7 +25,7 @@ Header.defaultProps = {
 	text: 'Feedback UI',
 }
 
-Header.PropTypes = {
+Header.propTypes = {
 	text: PropTypes.string,
 }
 
