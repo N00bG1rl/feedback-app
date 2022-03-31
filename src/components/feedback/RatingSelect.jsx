@@ -31,8 +31,12 @@ function RatingSelect({ select }) {
 				</li>
 			))}
 		</ul>
+	)
+}
 
-		/* const radioButtons = [1,2,3,4,5,6,7,8,9,10]
+export default RatingSelect
+
+/* const radioButtons = [1,2,3,4,5,6,7,8,9,10]
 
 		<ul className='rating'>
             {radioButtons.map((num, index) => (
@@ -50,7 +54,7 @@ function RatingSelect({ select }) {
             ))}
         </ul> */
 
-		/*     <ul className='rating'>
+/*     <ul className='rating'>
       <li>
         <input type='radio'
         id='num1'
@@ -70,7 +74,3 @@ function RatingSelect({ select }) {
         />
       </li>
     </ul> */
-	)
-}
-
-export default RatingSelect

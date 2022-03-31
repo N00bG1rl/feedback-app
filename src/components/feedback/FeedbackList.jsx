@@ -1,11 +1,9 @@
 import { useContext } from 'react'
-//import PropTypes from 'prop-types'
 import { motion, AnimatePresence } from 'framer-motion'
 
 import FeedbackContext from '../../context/FeedbackContext'
 import FeedbackItem from './FeedbackItem'
 
-// props = { feedback, handleDelete }
 function FeedbackList() {
 	const { feedback } = useContext(FeedbackContext)
 
@@ -31,6 +29,10 @@ function FeedbackList() {
 	)
 }
 
+export default FeedbackList
+
+//import PropTypes from 'prop-types'
+
 // FeedbackList.propTypes = {
 // 	feedback: PropTypes.arrayOf(
 // 		PropTypes.shape({
@@ -40,5 +42,3 @@ function FeedbackList() {
 // 		})
 // 	),
 // }
-
-export default FeedbackList

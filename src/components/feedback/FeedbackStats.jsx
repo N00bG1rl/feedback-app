@@ -1,8 +1,6 @@
-//import PropTypes from 'prop-types'
 import { useContext } from 'react'
 import FeedbackContext from '../../context/FeedbackContext'
 
-// propr = { feedback }
 function FeedbackStats() {
 	const { feedback } = useContext(FeedbackContext)
 
@@ -21,8 +19,10 @@ function FeedbackStats() {
 	)
 }
 
+export default FeedbackStats
+
+//import PropTypes from 'prop-types'
+
 // FeedbackStats.propTypes = {
 // 	feedback: PropTypes.array.isRequired,
 // }
-
-export default FeedbackStats
