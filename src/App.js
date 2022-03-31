@@ -7,7 +7,8 @@ import Header from './components/UI/Header'
 import FeedbackList from './components/feedback/FeedbackList'
 import FeedbackStats from './components/feedback/FeedbackStats'
 import FeedbackFrom from './components/feedback/FeedbackFrom'
-import About from './pages/About'
+import About from './pages/AboutPage'
+import AboutIconLink from './components/UI/AboutIconLink'
 
 import FeedbackData from './data/FeedbackData.json'
 const initialState = FeedbackData
@@ -50,8 +51,8 @@ function App() {
 						About
 					</Route>
 				</Routes>
-				<About />
 			</div>
+			<AboutIconLink />
 		</Router>
 	)
 }
