@@ -1,5 +1,7 @@
 import { useState } from 'react'
+
 import Card from './UI/Card'
+import Button from './UI/Button'
 
 function FeedbackFrom() {
 	const [text, setText] = useState('')
@@ -19,7 +21,7 @@ function FeedbackFrom() {
 						type='text'
 						placeholder='Write a rewiev'
 					/>
-					<button type='submit'>Send</button>
+					<Button type='submit'>Send</Button>
 				</div>
 			</form>
 		</Card>
