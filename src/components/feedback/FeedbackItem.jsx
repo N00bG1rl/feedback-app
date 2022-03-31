@@ -4,15 +4,6 @@ import PropTypes from 'prop-types'
 import Card from '../UI/Card'
 
 function FeedbackItem({ item, handleDelete }) {
-	// const [rating, setRating] = useState(7)
-	// const [text, setText] = useState('Add text here...')
-
-	// const handleClick = () => {
-	// 	setRating(prev => {
-	// 		return prev + 1
-	// 	})
-	// }
-
 	return (
 		<Card>
 			<div className='num-display'>{item.rating}</div>

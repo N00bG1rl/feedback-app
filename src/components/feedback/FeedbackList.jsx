@@ -3,13 +3,9 @@ import PropTypes from 'prop-types'
 import FeedbackItem from './FeedbackItem'
 
 function FeedbackList({ feedback, handleDelete }) {
-	console.log(feedback)
-
 	if (!feedback || !feedback.length) {
 		return <p>No feedbacks yet. Add an feedback...</p>
 	}
-
-	//const handleDelete = () => {}
 
 	return (
 		<div className='feedback-list'>
