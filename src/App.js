@@ -6,6 +6,7 @@ import FeedbackData from './data/FeedbackData.json'
 import Header from './components/UI/Header'
 import FeedbackList from './components/FeedbackList'
 import FeedbackStats from './components/FeedbackStats'
+import FeedbackFrom from './components/FeedbackFrom'
 
 const initialState = FeedbackData
 
@@ -22,6 +23,7 @@ function App() {
 		<>
 			<Header />
 			<div className='container'>
+				<FeedbackFrom />
 				<FeedbackStats feedback={feedback} />
 				<FeedbackList feedback={feedback} handleDelete={deleteFeedback} />
 			</div>
