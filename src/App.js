@@ -4,9 +4,9 @@ import PropTypes from 'prop-types'
 import FeedbackData from './data/FeedbackData.json'
 
 import Header from './components/UI/Header'
-import FeedbackList from './components/FeedbackList'
-import FeedbackStats from './components/FeedbackStats'
-import FeedbackFrom from './components/FeedbackFrom'
+import FeedbackList from './components/feedback/FeedbackList'
+import FeedbackStats from './components/feedback/FeedbackStats'
+import FeedbackFrom from './components/feedback/FeedbackFrom'
 
 const initialState = FeedbackData
 
