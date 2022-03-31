@@ -23,13 +23,22 @@ ul {
 	padding: 0 20px;
 }
 
-header {
+header a {
 	height: 70px;
 	width: 100%;
 	display: flex;
-	justify-content: space-between;
+	justify-content: center;
+	text-decoration: none;
+	list-style: none;
 	align-items: center;
 	margin-bottom: 30px;
+	color: #ff6a95;
+	cursor: pointer;
+}
+
+header a:hover {
+	color: #fff;
+	text-decoration: underline;
 }
 
 .card {
@@ -172,6 +181,7 @@ input:focus {
 	background-color: #cccccc;
 	color: #333;
 	cursor: auto;
+	cursor: not-allowed;
 }
 
 .btn:disabled:hover {
