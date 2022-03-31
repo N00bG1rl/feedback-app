@@ -46,7 +46,7 @@ function FeedbackFrom() {
 				rating,
 			}
 
-			if (feedbackEdit.edit === true) {
+			if (feedbackEdit.edit) {
 				updateFeedback(feedbackEdit.item.id, newFeedback)
 			} else {
 				addFeedback(newFeedback)
@@ -60,7 +60,9 @@ function FeedbackFrom() {
 		<Card>
 			<form onSubmit={handleSubmit}>
 				<h2>How would you rate your service with us?</h2>
+
 				<RatingSelect select={rating => setRating(rating)} />
+
 				<div className='input-group'>
 					<input
 						onChange={handleTextChange}
@@ -68,10 +70,12 @@ function FeedbackFrom() {
 						type='text'
 						placeholder='Write a review'
 					/>
+
 					<Button type='submit' isDisabled={btnDisabled}>
 						Send
 					</Button>
 				</div>
+
 				{message && <div className='message'>{message}</div>}
 			</form>
 		</Card>
