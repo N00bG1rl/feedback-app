@@ -6,13 +6,16 @@ import FeedbackContext from '../../context/FeedbackContext'
 import Card from '../UI/Card'
 
 function FeedbackItem({ item }) {
-	const { deleteFeedback } = useContext(FeedbackContext)
+	const { deleteFeedback, editFeedback } = useContext(FeedbackContext)
 
 	return (
 		<Card>
 			<div className='num-display'>{item.rating}</div>
 			<button onClick={() => deleteFeedback(item.id)} className='close'>
 				<FaTimes color='red' />
+			</button>
+			<button onClick={() => editFeedback(item)} className='edit'>
+				<FaEdit color='red' />
 			</button>
 			<div className='text-display'>{item.text}</div>
 		</Card>
