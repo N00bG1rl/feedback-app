@@ -1,8 +1,8 @@
 {
   "feedback": [
     {
-      "text": "4354553344245",
-      "rating": 5,
+      "text": "Edited sample",
+      "rating": 8,
       "id": 1
     },
     {
@@ -14,11 +14,6 @@
       "id": 3,
       "rating": 8,
       "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. consequuntur vel vitae commodi alias voluptatem est voluptatum ipsa quae."
-    },
-    {
-      "text": "dfasfddasdfasdfd",
-      "rating": 10,
-      "id": 4
     }
   ]
 }

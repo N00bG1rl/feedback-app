@@ -34,4 +34,4 @@ Install the dependencies in the local node_modules folder.
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-Open [http://localhost:5000](http://localhost:5000) to view JSON database in your browser.
+Open [http://localhost:5000](http://localhost:5000/feedback) to view JSON database in your browser.

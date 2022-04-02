@@ -12,6 +12,7 @@ export const FeedbackProvider = ({ children }) => {
 	})
 
 	useEffect(() => {
+		console.log('fetch')
 		fetchFeedback()
 	}, [])
 
